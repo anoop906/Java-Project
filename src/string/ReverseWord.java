@@ -3,7 +3,7 @@ package string;
 public class ReverseWord {
 
 	public static void main(String[] args) {
-		String str= "anuj gupta";
+		String str= "anuj gupta singh";
 		//o/p: gupta anuj
 		String newStr[]=str.split(" ");
 		int len= newStr.length;
@@ -12,6 +12,8 @@ public class ReverseWord {
 			res= newStr[i];
 			System.out.print(res+" ");
 		}
+		
+		
 	
 	}
 

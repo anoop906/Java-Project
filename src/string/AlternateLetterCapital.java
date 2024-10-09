@@ -22,8 +22,6 @@ public class AlternateLetterCapital {
 				}
 			}
 			System.out.print(" ");
-			
-
 		}
 	}
 }

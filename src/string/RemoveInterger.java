@@ -1,10 +1,8 @@
 package string;
 
 public class RemoveInterger {
-
 	public static void main(String[] args) {
-		 
-        String str = "a1n2u34j";
+	    String str = "a1n2u34j";
         //o/p: anoop;
         int len = str.length();
         String newstr= "";
@@ -18,9 +16,7 @@ public class RemoveInterger {
 //        	}
         }
         System.out.println(newstr);
-        
-        
-//        
+                
 //        String str1 = "an1o2o3p";
 //        //o/p: anoop;
 //        String newstr1 = str1.replaceAll("\\d", "");

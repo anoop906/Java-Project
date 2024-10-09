@@ -1,7 +1,6 @@
 package string;
 
 public class RevStringSpecialCharFixed {
-
 	public static void main(String[] args) {
 		String str = "A^N$O#O(P";
 		int i = 0;
@@ -24,7 +23,6 @@ public class RevStringSpecialCharFixed {
 		//because String is class
 		String newString = new String(ch);
 		System.out.println(newString);
-
 	}
 }
 

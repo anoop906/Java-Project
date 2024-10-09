@@ -1,10 +1,8 @@
 package string;
 
 public class ReverseEvenWords {
-
 	public static void main(String[] args) {
 		String str = "He is doing preparation for Quality Assurance Engineer";
-	
 		String []arrstr = str.split(" ");
 		int len= arrstr.length;
 		for(int i =0; i<len; i++) {
@@ -17,15 +15,12 @@ public class ReverseEvenWords {
 					 str1= str1+c;
 					}
 				System.out.print(str1+" ");
-				
 			}
 			else {
 				str1 = newString;
 				System.out.print(str1+" ");
-			
+			}
 		}
-
 	}
-}
 }
 
